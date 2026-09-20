@@ -1,0 +1,96 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="Django" />
+          <option value="djangorestframework" />
+          <option value="djangorestframework-simplejwt" />
+          <option value="asgiref" />
+          <option value="gunicorn" />
+          <option value="mysqlclient" />
+          <option value="celery" />
+          <option value="amqp" />
+          <option value="billiard" />
+          <option value="kombu" />
+          <option value="vine" />
+          <option value="flower" />
+          <option value="apns2" />
+          <option value="firebase-admin" />
+          <option value="google-api-core" />
+          <option value="google-api-python-client" />
+          <option value="google-auth" />
+          <option value="google-auth-httplib2" />
+          <option value="google-cloud-core" />
+          <option value="google-cloud-firestore" />
+          <option value="google-cloud-storage" />
+          <option value="google-crc32c" />
+          <option value="google-resumable-media" />
+          <option value="googleapis-common-protos" />
+          <option value="requests" />
+          <option value="urllib3" />
+          <option value="certifi" />
+          <option value="charset-normalizer" />
+          <option value="idna" />
+          <option value="httplib2" />
+          <option value="h2" />
+          <option value="hpack" />
+          <option value="hyper" />
+          <option value="hyperframe" />
+          <option value="cryptography" />
+          <option value="cffi" />
+          <option value="pycparser" />
+          <option value="pycryptodome" />
+          <option value="PyJWT" />
+          <option value="PyNaCl" />
+          <option value="ovh" />
+          <option value="onlinepayments-sdk-python3" />
+          <option value="python-dateutil" />
+          <option value="dotenv" />
+          <option value="pytz" />
+          <option value="tzdata" />
+          <option value="six" />
+          <option value="click" />
+          <option value="click-didyoumean" />
+          <option value="click-plugins" />
+          <option value="click-repl" />
+          <option value="prompt-toolkit" />
+          <option value="wcwidth" />
+          <option value="Pillow" />
+          <option value="pypdf2" />
+          <option value="reportlab" />
+          <option value="docutils" />
+          <option value="pyparsing" />
+          <option value="sqlparse" />
+          <option value="grpcio" />
+          <option value="grpcio-status" />
+          <option value="proto-plus" />
+          <option value="protobuf" />
+          <option value="pyasn1" />
+          <option value="pyasn1-modules" />
+          <option value="rsa" />
+          <option value="msgpack" />
+          <option value="typing-extensions" />
+          <option value="beautifulsoup4" />
+          <option value="stripe" />
+          <option value="httpx" />
+          <option value="langchain-openai" />
+          <option value="psutil" />
+          <option value="coverage" />
+          <option value="twilio" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="boto3" />
+          <option value="djangorestframework" />
+          <option value="pandas" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

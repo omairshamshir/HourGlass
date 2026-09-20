@@ -1,0 +1,47 @@
+[package]
+name = "hourglass"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+default-run = "hourglass"
+
+[[bin]]
+name = "hourglass"
+path = "src/main.rs"
+
+[dependencies]
+hourglass-core = { path = "../hourglass-core" }
+hourglass-store = { path = "../hourglass-store" }
+chrono = { workspace = true }
+gpui = "0.2.2"
+tray-icon = "0.24"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+objc2 = "0.6"
+block2 = "0.6"
+objc2-foundation = { version = "0.3", features = [
+    "NSString",
+    "NSNotification",
+    "NSDistributedNotificationCenter",
+    "NSOperation",
+    "NSUserDefaults",
+    "NSDate",
+    "NSThread",
+    "NSObjCRuntime",
+    "block2",
+] }
+objc2-app-kit = { version = "0.3", features = [
+    "NSApplication",
+    "NSWorkspace",
+    "NSRunningApplication",
+    "NSResponder",
+] }
+objc2-core-graphics = { version = "0.3", features = ["CGEvent", "CGEventTypes"] }
+
+[package.metadata.bundle]
+name = "Hourglass"
+identifier = "app.hourglass.mac"
+icon = ["assets/icon.icns"]
+category = "public.app-category.productivity"
+short_description = "Hours, tracked honestly."
